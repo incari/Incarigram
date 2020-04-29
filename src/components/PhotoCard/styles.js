@@ -9,6 +9,9 @@ padding: 56.25% 0 0 0;
 position:relative;
 width: 100%
 `
+export const Article = styled.article`
+min-height: 200px
+`
 
 export const Img = styled.img`
 ${fadeIn({ time: '5s' })}
