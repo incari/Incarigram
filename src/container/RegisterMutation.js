@@ -10,5 +10,5 @@ mutation signup($input: UserCredentials!){
 export const RegisterMutation = ({ children }) => {
   return <Mutation mutation={REGISTER}>
     {children}
-         </Mutation>
+  </Mutation>
 }
